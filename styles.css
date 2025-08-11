@@ -147,10 +147,10 @@ body {
 }
 
 /*se corrigio esto*/
-/* .tabs {
+.tabs {
     display: flex;
     gap: var(--espaciado);
-} */
+}
 
 .tabs__tab {
     padding: 8px 16px;
@@ -177,7 +177,7 @@ body {
     margin: var(--espaciado) 0;
     text-align: center;
     /*se agrego esto*/
-    /* margin: var(--espaciado) auto;*/
+    margin: var(--espaciado) auto;
 }
 
 .product-card__image {
