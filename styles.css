@@ -62,6 +62,15 @@ body {
     display: block;
     }
 
+    /*Se corrio esto*/
+    /* Para responsividad */
+/* .nav { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+} */
+
 .nav__logo {
     margin: 0;
     color: var(--color-principal);
@@ -73,6 +82,13 @@ body {
     margin: var(--espaciado) 0 0 0;
     display: block;
     }
+
+    /*Se corrigio esto*/
+/* .nav__menu { 
+    display: flex;
+    gap: var(--espaciado);
+    margin: 0;
+} */
 
 .nav__item {
     display: inline-block;
@@ -130,6 +146,12 @@ body {
     margin: var(--espaciado) 0;
 }
 
+/*se corrigio esto*/
+/* .tabs {
+    display: flex;
+    gap: var(--espaciado);
+} */
+
 .tabs__tab {
     padding: 8px 16px;
     border: none;
@@ -154,6 +176,8 @@ body {
     box-shadow: var(--sombra);
     margin: var(--espaciado) 0;
     text-align: center;
+    /*se agrego esto*/
+    /* margin: var(--espaciado) auto;*/
 }
 
 .product-card__image {
@@ -201,6 +225,10 @@ body {
 /* Galería de imágenes */
 .gallery {
     margin: var(--espaciado) 0;
+    display: flex; /*esto*/
+    gap: 8px; /*esto*/
+    flex-wrap: wrap; /*esto*/
+    justify-content: center; /*y esto se agrego*/
 }
 
 .gallery__image {
@@ -239,9 +267,15 @@ body {
     margin-bottom: 8px;
 }
 
-.todo__list {
+/* .todo__list {
     list-style: none;
     padding: 0;
+} */
+
+.todo__list { /*se agrego esto*/
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .todo__item {
@@ -263,8 +297,14 @@ body {
     margin-bottom: 8px;
 }
 
-.contact__form {
+/* .contact__form {
     display: block;
+} */
+
+.contact__form { /*se agrego esto*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .contact__input,
@@ -274,6 +314,7 @@ body {
     margin-bottom: 8px;
     border-radius: var(--radio-borde);
     border: 1px solid #ccc;
+    max-width: 400px; /*se agrego esto*/
 }
 
 .contact__button {
@@ -306,6 +347,13 @@ body {
     padding: var(--espaciado);
     margin-top: var(--espaciado);
 }
+
+/* .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+} */
 
 .footer__text {
     margin: 0;
